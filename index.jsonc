@@ -1,0 +1,17 @@
+// @license
+// Copyright (c) rljson
+//
+// Use of this source code is governed by terms that can be
+// found in the LICENSE file in the root of this package.
+
+{
+  "name": "@rljson/cars-ui-runtime",
+  "summary": "Browser app of the cars example app: a page that shows its own hello line and the lines of /api/hello; served by nginx as the container cars-ui, which forwards /api to the backend for frontend.",
+  "domain": ["page in the browser", "container cars-ui, nginx, uid 1000"],
+  "interfaces": {
+    "uses": {
+      "cars-bff-runtime": "GET /api/hello over HTTP at BFF_URL",
+    },
+    "usedBy": {},
+  },
+}
