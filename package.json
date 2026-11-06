@@ -4,7 +4,7 @@
   "description": "Browser app of the cars example app",
   "homepage": "https://github.com/rljson/cars-ui-runtime",
   "bugs": "https://github.com/rljson/cars-ui-runtime/issues",
-  "private": false,
+  "private": true,
   "license": "MIT",
   "engines": {
     "node": ">=22.14.0"

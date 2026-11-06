@@ -11,7 +11,6 @@ found in the LICENSE file in the root of this package.
 English | [Deutsch](README.de.md)
 
 [![CI](https://github.com/rljson/cars-ui-runtime/actions/workflows/quick_check.yaml/badge.svg)](https://github.com/rljson/cars-ui-runtime/actions/workflows/quick_check.yaml)
-[![npm](https://img.shields.io/npm/v/@rljson/cars-ui-runtime.svg)](https://www.npmjs.com/package/@rljson/cars-ui-runtime)
 
 Browser app of the cars example app.
 
@@ -23,8 +22,11 @@ Browser app of the cars example app.
 
 ## Installation
 
+The package is private and not published to npm. Depend on a tagged
+version of its git repository:
+
 ```bash
-pnpm add @rljson/cars-ui-runtime
+pnpm add git+ssh://git@github.com/rljson/cars-ui-runtime.git#semver:^0.0.1
 ```
 
 ## Usage
