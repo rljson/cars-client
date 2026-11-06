@@ -21,6 +21,6 @@ COPY public/index.html /usr/share/nginx/html/index.html
 COPY --from=build /app/dist/cars-ui-runtime.js /usr/share/nginx/html/
 RUN chown -R 1000:1000 /etc/nginx/conf.d /var/cache/nginx /usr/share/nginx/html
 ENV NGINX_ENTRYPOINT_LOCAL_RESOLVERS=1 \
-    BFF_URL=http://cars-server.demo.svc.cluster.local:3000
+    BFF_URL=http://cars-bff.demo.svc.cluster.local:3000
 USER 1000
 EXPOSE 8080

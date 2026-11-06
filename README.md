@@ -56,7 +56,7 @@ az acr build --registry crcarsdemo --image cars-ui:<version>-<sha> .
 ## Limitations
 
 - Shows only the hello world
-- nginx forwards `/api` to `BFF_URL`, by default `cars-server` in the namespace `demo`
+- nginx forwards `/api` to `BFF_URL`, by default `cars-bff` in the namespace `demo`
 
 ## Documentation
 
