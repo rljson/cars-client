@@ -1,6 +1,6 @@
 {
   "name": "@rljson/cars-ui-runtime",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Browser app of the cars example app",
   "homepage": "https://github.com/rljson/cars-ui-runtime",
   "bugs": "https://github.com/rljson/cars-ui-runtime/issues",
