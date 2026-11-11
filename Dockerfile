@@ -4,7 +4,7 @@
 # Use of this source code is governed by terms that can be
 # found in the LICENSE file in the root of this package.
 
-# The container cars-ui: the page, served by nginx as uid 1000.
+# The container cars-client: the page, served by nginx as uid 1000.
 
 FROM node:22-alpine AS build
 WORKDIR /app
@@ -18,7 +18,7 @@ FROM nginxinc/nginx-unprivileged:1.27-alpine
 USER root
 COPY docker/default.conf.template /etc/nginx/templates/default.conf.template
 COPY public/index.html /usr/share/nginx/html/index.html
-COPY --from=build /app/dist/cars-ui-runtime.js /usr/share/nginx/html/
+COPY --from=build /app/dist/cars-client.js /usr/share/nginx/html/
 RUN chown -R 1000:1000 /etc/nginx/conf.d /var/cache/nginx /usr/share/nginx/html
 ENV NGINX_ENTRYPOINT_LOCAL_RESOLVERS=1 \
     BFF_URL=http://cars-bff.demo.svc.cluster.local:3000

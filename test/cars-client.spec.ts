@@ -14,7 +14,7 @@ import {
   noBackend,
   showHello,
   uiHello,
-} from '../src/cars-ui-runtime';
+} from '../src/cars-client';
 
 const answering =
   (body: unknown, ok = true): Fetch =>

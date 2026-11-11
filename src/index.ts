@@ -4,5 +4,5 @@
 // Use of this source code is governed by terms that can be
 // found in the LICENSE file in the root of this package.
 
-export { helloLines, noBackend, showHello, uiHello } from './cars-ui-runtime.ts';
-export type { Fetch } from './cars-ui-runtime.ts';
+export { helloLines, noBackend, showHello, uiHello } from './cars-client.ts';
+export type { Fetch } from './cars-client.ts';

@@ -4,7 +4,7 @@
 // Use of this source code is governed by terms that can be
 // found in the LICENSE file in the root of this package.
 
-import { helloLines } from './cars-ui-runtime.ts';
+import { helloLines } from './cars-client.ts';
 
 export const example = async () => {
   const l = console.log;
