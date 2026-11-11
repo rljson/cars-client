@@ -2,4 +2,4 @@
 // Kept in sync by test/cars_client_version.spec.ts.
 
 /** The version of the `@rljson/cars-client` package. */
-export const carsClientVersion = '0.0.2';
+export const carsClientVersion = '0.1.0';

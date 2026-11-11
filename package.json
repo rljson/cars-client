@@ -1,6 +1,6 @@
 {
   "name": "@rljson/cars-client",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Browser app of the cars example app",
   "homepage": "https://github.com/rljson/cars-client",
   "bugs": "https://github.com/rljson/cars-client/issues",
