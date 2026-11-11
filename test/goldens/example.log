@@ -1,1 +1,1 @@
-"helloLines(fetchFn)\n  Hello from cars-ui-runtime\n  Hello from the backend"
+"helloLines(fetchFn)\n  Hello from cars-client\n  Hello from the backend"

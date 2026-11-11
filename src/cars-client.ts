@@ -5,7 +5,7 @@
 // found in the LICENSE file in the root of this package.
 
 /** The greeting of this package */
-export const uiHello = 'Hello from cars-ui-runtime';
+export const uiHello = 'Hello from cars-client';
 
 /** The line shown when the backend does not answer */
 export const noBackend = '(no answer from /api/hello yet)';

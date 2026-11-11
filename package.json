@@ -1,9 +1,9 @@
 {
-  "name": "@rljson/cars-ui-runtime",
-  "version": "0.0.2",
+  "name": "@rljson/cars-client",
+  "version": "0.1.0",
   "description": "Browser app of the cars example app",
-  "homepage": "https://github.com/rljson/cars-ui-runtime",
-  "bugs": "https://github.com/rljson/cars-ui-runtime/issues",
+  "homepage": "https://github.com/rljson/cars-client",
+  "bugs": "https://github.com/rljson/cars-client/issues",
   "private": true,
   "license": "MIT",
   "engines": {
@@ -11,9 +11,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rljson/cars-ui-runtime.git"
+    "url": "git+https://github.com/rljson/cars-client.git"
   },
-  "main": "dist/cars-ui-runtime.js",
+  "main": "dist/cars-client.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
@@ -32,20 +32,20 @@
     "@rljson/json": "0.0.23",
     "@tssuite/helix-js": "^0.5.1",
     "@types/node": "^26.6.6",
-    "@typescript-eslint/eslint-plugin": "^8.72.1",
-    "@typescript-eslint/parser": "^8.72.1",
+    "@typescript-eslint/eslint-plugin": "^8.72.2",
+    "@typescript-eslint/parser": "^8.72.2",
     "@vitest/coverage-v8": "^5.1.0",
     "cross-env": "^10.1.0",
     "eslint": "~10.14.0",
-    "eslint-plugin-jsdoc": "^65.4.4",
+    "eslint-plugin-jsdoc": "^65.4.5",
     "eslint-plugin-tsdoc": "^0.5.4",
     "globals": "^17.14.0",
     "jsdoc": "^4.0.5",
     "jsdom": "^31.0.0",
     "read-pkg": "^10.1.0",
     "typescript": "~6.0.3",
-    "typescript-eslint": "^8.72.1",
-    "vite": "^8.3.6",
+    "typescript-eslint": "^8.72.2",
+    "vite": "^8.3.8",
     "vite-node": "^6.0.0",
     "vite-plugin-dts": "^5.1.2",
     "vite-tsconfig-paths": "^6.1.1",

@@ -6,11 +6,11 @@ Use of this source code is governed by terms that can be
 found in the LICENSE file in the root of this package.
 -->
 
-# @rljson/cars-ui-runtime
+# @rljson/cars-client
 
 English | [Deutsch](README.de.md)
 
-[![CI](https://github.com/rljson/cars-ui-runtime/actions/workflows/quick_check.yaml/badge.svg)](https://github.com/rljson/cars-ui-runtime/actions/workflows/quick_check.yaml)
+[![CI](https://github.com/rljson/cars-client/actions/workflows/quick_check.yaml/badge.svg)](https://github.com/rljson/cars-client/actions/workflows/quick_check.yaml)
 
 Browser app of the cars example app.
 
@@ -26,13 +26,13 @@ The package is private and not published to npm. Depend on a tagged
 version of its git repository:
 
 ```bash
-pnpm add git+ssh://git@github.com/rljson/cars-ui-runtime.git#semver:^0.0.1
+pnpm add git+ssh://git@github.com/rljson/cars-client.git#semver:^0.0.1
 ```
 
 ## Usage
 
 ```ts
-import { helloLines } from '@rljson/cars-ui-runtime';
+import { helloLines } from '@rljson/cars-client';
 
 const lines = await helloLines((url) => fetch(url));
 console.log(lines.join('\n'));
@@ -41,16 +41,16 @@ console.log(lines.join('\n'));
 It prints:
 
 ```text
-Hello from cars-ui-runtime
+Hello from cars-client
 Hello from cars-bff-runtime
 ```
 
 ## Container
 
-Build the container `cars-ui` in the registry:
+Build the container `cars-client` in the registry:
 
 ```bash
-az acr build --registry crcarsdemo --image cars-ui:<version>-<sha> .
+az acr build --registry crcarsdemo --image cars-client:<version>-<sha> .
 ```
 
 ## Limitations
